@@ -33,3 +33,20 @@ console.log(str2.trim());
 let url="https://Google.com/google%20meta"
 
 console.log(url.replace('%20','-hello-'))
+
+const val=123.8966
+console.log(val.toPrecision(4));
+
+const hund=100000000000
+console.log(hund.toLocaleString('en-IN'))
+
+const min=10
+const max=50
+
+// random generate value between 10-20
+
+const random1= Math.random() // (0,1)
+const random =random1*(max-min+1)
+const nearBY=Math.floor(random)
+const between =nearBY+min
+console.log(between);

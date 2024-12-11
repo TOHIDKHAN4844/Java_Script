@@ -42,3 +42,6 @@ console.log(returnedTarget === target);
 console.log(Object.keys(JsUser));
 console.log(Object.values(JsUser));
 console.log(Object.entries(JsUser));
+
+const {name:myName}=JsUser
+console.log(myName);

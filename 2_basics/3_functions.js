@@ -48,3 +48,12 @@ console.log(addNo(3,5));
 
 const noAdd=(no1,no2)=>no1+no2
 console.log(noAdd(3,9));
+
+// IIFE imediately Invoked Function Expressions
+
+// ()()
+
+(function chai(name){
+    console.log(`DB Connected ${name}`);
+})('Tohid'); 
+
